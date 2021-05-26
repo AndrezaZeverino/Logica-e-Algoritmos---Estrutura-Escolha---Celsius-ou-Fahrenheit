@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Switch - exercicio 1</title>
+
+  <script>
+
+    var temperatura = (prompt("Digite a temperatura: "));
+    var tipo = (prompt("Digite o tipo de temperatura, C ou F: "));
+    var C;
+    var F;
+
+
+      switch (tipo) {
+        case "C":
+
+          document.write(` A temperatura é ${temperatura} Celsius`);
+
+          break;
+
+        case "F":
+
+          document.write(` A Temperatura é ${temperatura} Fahrenheit`);
+
+          break;
+
+        default:
+          document.write("Temperatura invalida");
+          break;
+      }
+
+  </script>
+</head>
+
+<body>
+
+</body>
+
+</html>
